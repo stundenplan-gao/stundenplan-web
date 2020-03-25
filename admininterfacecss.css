@@ -62,3 +62,15 @@ input:checked + .checked {
     background-color: #cccccc;
     border-width: 0px;
 }
+
+.tag {
+    width: 128px;
+    height: 48px;
+    text-align: center;
+}
+
+.stunde {
+    width: 96px;
+    height: 48px;
+    text-align: center;
+}
