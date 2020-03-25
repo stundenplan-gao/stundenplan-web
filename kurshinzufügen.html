@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:style="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="admininterfacecss.css">
@@ -15,182 +15,295 @@
                 <i class="fa fa-bars"></i>
             </a>
         </div>
-        <div id="#home">
-            <p class="day">Montag</p>
-            <p class="day">Dienstag</p>
-            <p class="day">Mittwoch</p>
-            <p class="day">Donnerstag</p>
-            <p class="day">Freitag</p>
-            <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-                <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-                <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-                <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-            <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-                </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-            <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-                <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-                <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-                <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
-                <br>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label><label class="switch">
-                <input type="checkbox">
-                <span class="checked"></span>
-            </label>
+        <div>
+            <table class="stundenplan">
+                <tr>
+                    <th></th>
+                    <th class="tag">Montag</th>
+                    <th class="tag">Dienstag</th>
+                    <th class="tag">Mittwoch</th>
+                    <th class="tag">Donnerstag</th>
+                    <th class="tag">Freitag</th>
+                </tr>
+                <tr>
+                    <td class="stunde">7:50 - 8:35</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">8:40 - 9:25</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">9:45 - 10:30</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">10:35 - 11:20</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">11:35 - 12:20</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">12:25 - 13:10</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">13:10 - 13:55</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">14:05 - 14:50</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">14:50 - 15:35</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td class="stunde">15:35 - 16:20</td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                    <td><label class="switch">
+                        <input type="checkbox">
+                        <span class="checked"></span>
+                    </label></td>
+                </tr>
+            </table>
+        </div>
+        <div class="kursinfos">
+            <table>
+                <tr style="height: 48px">
+                    <td>
+                        <label>Lehrer</label>
+                    </td>
+                    <td>
+                        <label>Fach</label>
+                    </td>
+                    <td>
+                        <label>Kursbezeichnung</label>
+                    </td>
+                </tr>
+                <tr class="kursinfoauswahl">
+                    <td>
+                        <input list="lehrer">
+                        <datalist id="lehrer">
+                            <option value="Anthony">
+                            <option value="Thomas">
+                            <option value="Gutsche">
+                        </datalist>
+                    </td>
+                    <td>
+                        <input list="faecher">
+                        <datalist id="faecher">
+                            <option value="Physik">
+                            <option value="Mathe">
+                            <option value="Informatik">
+                        </datalist>
+                    </td>
+                    <td>
+                        <input list="kursbezeichnung">
+                        <datalist id="kursbezeichnung">
+                            <option value="PHLK1">
+                            <option value="MLK1">
+                            <option value="IFGK1">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button class="Kurs hinzufügen" href="kurse.html">Kurs hinzufügen</button>
+                    </td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
